@@ -23,4 +23,5 @@ mapResource = {
     ["ResKey_Action_2614"] = "veafUnits.lua",
     ["ResKey_Action_2615"] = "dcsUnits.lua",
     ["ResKey_Action_2626"] = "missionConfig.lua",
+    ["ResKey_Action_2628"] = "veafRemote.lua",
 } -- end of mapResource

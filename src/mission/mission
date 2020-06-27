@@ -29647,45 +29647,6 @@ mission = {
             ["nav_points"] = {
             }, -- end of ["nav_points"]
         }, -- end of ["blue"]
-        ["neutrals"] = {
-            ["bullseye"] = {
-                ["x"] = 100,
-                ["y"] = 100,
-            }, -- end of ["bullseye"]
-            ["country"] = {
-                [1] = {
-                    ["id"] = 7,
-                    ["name"] = "USAF Aggressors",
-                }, -- end of [1]
-                [2] = {
-                    ["id"] = 17,
-                    ["name"] = "Insurgents",
-                }, -- end of [2]
-                [3] = {
-                    ["id"] = 49,
-                    ["name"] = "Vietnam",
-                }, -- end of [3]
-                [4] = {
-                    ["id"] = 50,
-                    ["name"] = "Venezuela",
-                }, -- end of [4]
-                [5] = {
-                    ["id"] = 66,
-                    ["name"] = "Third Reich",
-                }, -- end of [5]
-                [6] = {
-                    ["id"] = 68,
-                    ["name"] = "USSR",
-                }, -- end of [6]
-                [7] = {
-                    ["id"] = 69,
-                    ["name"] = "Italian Social Republic",
-                }, -- end of [7]
-            }, -- end of ["country"]
-            ["name"] = "neutrals",
-            ["nav_points"] = {
-            }, -- end of ["nav_points"]
-        }, -- end of ["neutrals"]
         ["red"] = {
             ["bullseye"] = {
                 ["x"] = 65919.991243055,
@@ -44855,7 +44816,7 @@ mission = {
             [20] = 67,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 231264,
+    ["currentKey"] = 238261,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -51144,7 +51105,7 @@ mission = {
         ["centerY"] = -140184.50406123,
         ["zoom"] = 914538.9946147,
     }, -- end of ["map"]
-    ["maxDictId"] = 2626,
+    ["maxDictId"] = 2628,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
@@ -51185,10 +51146,10 @@ mission = {
     ["theatre"] = "PersianGulf",
     ["trig"] = {
         ["actions"] = {
-            [1] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_2578\"));",
+            [1] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_2578\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2627\"));",
             [2] = "a_set_ai_task(48, 1);a_set_flag_value(9001, 1);a_set_ai_task(87, 1);a_set_ai_task(87, 2);a_set_flag_value(9074, 1);",
             [3] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_2580\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2585\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2581\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2582\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2583\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2584\"));",
-            [4] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_2587\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2593\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2594\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2595\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2596\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2597\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2598\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2599\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2600\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2601\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2602\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2603\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2604\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2605\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2606\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2607\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2608\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2609\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2610\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2611\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2612\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2613\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2614\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2615\"));",
+            [4] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_2587\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2593\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2594\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2595\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2596\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2597\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2598\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2599\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2600\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2601\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2602\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2603\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2604\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2605\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2606\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2607\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2608\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2609\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2610\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2611\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2612\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2613\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2614\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2615\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2628\"));",
             [5] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_2617\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2618\"));",
             [6] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_2624\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2626\"));",
             [7] = "a_set_ai_task(87, 1);a_set_ai_task(87, 2);a_set_flag_value(9074, 0);a_set_flag_value(9074, 1);",
@@ -51343,6 +51304,13 @@ mission = {
                     ["text"] = "DictKey_ActionText_2578",
                     ["zone"] = 67,
                 }, -- end of [1]
+                [2] = {
+                    ["KeyDict_text"] = "DictKey_ActionText_2627",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_2627",
+                    ["zone"] = 67,
+                }, -- end of [2]
             }, -- end of ["actions"]
             ["colorItem"] = "0xff00ffff",
             ["comment"] = "choose - static or dynamic",
@@ -51631,6 +51599,12 @@ mission = {
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = 67,
                 }, -- end of [24]
+                [25] = {
+                    ["file"] = "ResKey_Action_2628",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_do_script_file",
+                    ["zone"] = 67,
+                }, -- end of [25]
             }, -- end of ["actions"]
             ["colorItem"] = "0x00ff00ff",
             ["comment"] = "mission start - static",
