@@ -182,21 +182,8 @@ end
 ----------------------------------------------------------------------------------------------------------------------------
 -- configure CARRIER OPERATIONS 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-local useMooseAirboss = false
-
-if useMooseAirboss then
-    veafCarrierOperations2.setCarrierInfo("CVN-74 Stennis", 119.700, 305)
-    veafCarrierOperations2.setTankerInfo("CVN-74 Stennis S3B-Tanker", 290.90, 75, "S3B", 511)
-    veafCarrierOperations2.setPedroInfo("CVN-74 Stennis Pedro", "Lake Erie", 42)
-    veafCarrierOperations2.setRepeaterInfo("Stennis Radio Repeater LSO", "Stennis Radio Repeater MARSHAL")
-    --veafCarrierOperations2.setTraining()
-    veaf.logInfo("init - veafCarrierOperations2")
-    veafCarrierOperations2.initialize()
-    --veafCarrierOperations2.addRecoveryWindows()
-else
-    veaf.logInfo("init - veafCarrierOperations")
-    veafCarrierOperations.initialize(true)
-end
+veaf.logInfo("init - veafCarrierOperations")
+veafCarrierOperations.initialize(true)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- configure CTLD 
